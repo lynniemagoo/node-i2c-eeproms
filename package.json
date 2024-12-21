@@ -1,0 +1,55 @@
+{
+  "name": "i2c-eeproms",
+  "version": "1.0.0",
+  "description": "Support for I2C access of various AT24XXX I2C EEPROMS",
+  "keywords": [
+    "AT24C01",
+    "AT24C02",
+    "AT24C04",
+    "AT24C08",
+    "AT24C16",
+    "AT24C32",
+    "AT24C64",
+    "AT24C128",
+    "AT24C256",
+    "AT24C512",
+    "AT24C128C",
+    "AT24C256C",
+    "AT24C512C",
+    "K24C256C",
+    "i2c",
+    "eeprom",
+    "raspberry pi"
+  ],
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc",
+    "build": "tsc",
+    "lint": "eslint --ext .ts src examples",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "author": "Lyndel McGee <lynniemagoo@yahoo.com>",
+  "license": "GPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lynniemagoo/node-i2c-eeproms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lynniemagoo/node-i2c-eeproms/issues"
+  },
+  "devDependencies": {
+    "@types/i2c-bus": "^5.1.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "i2c-bus": "^5.2.3"
+  }
+}
