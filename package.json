@@ -1,6 +1,6 @@
 {
   "name": "i2c-eeproms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Support for I2C access of various AT24XXX I2C EEPROMS",
   "keywords": [
     "AT24C01",
@@ -17,6 +17,8 @@
     "AT24C256C",
     "AT24C512C",
     "K24C256C",
+    "AT24CM01",
+    "AT24CM02",
     "i2c",
     "eeprom",
     "raspberry pi"
